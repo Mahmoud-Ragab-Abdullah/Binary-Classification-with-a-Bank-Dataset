@@ -44,10 +44,13 @@ Model Selection: Based on the large dataset size and the non-linear relationship
 
 Hyperparameter Tuning: A focused Randomized Search Cross-Validation (RandomizedSearchCV) was executed to find the best configuration, targeting parameters critical to a boosting model's performance:
 
-l2_regularization
-learning_rate
-max_depth
-max_iter (number of boosting stages)
+l2_regularization.
+
+learning_rate.
+
+max_depth.
+
+max_iter (number of boosting stages).
 
 Results & Conclusion
 The hyperparameter tuning process, detailed in the notebook output, confirms that the model was pushed to its optimal configuration, resulting in a robust, high-performing classifier.
