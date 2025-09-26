@@ -66,6 +66,9 @@ Cross-Validation Score: The CV score is expected to be close to the training sco
 The combination of effective feature engineering (specifically the pdays signal) and the use of a highly optimized, scalable boosting algorithm successfully solved the binary classification problem. The final model is a valuable tool for the bank, capable of accurately predicting term deposit subscription likelihood and significantly improving marketing ROI.
 
 Programming Language:	Python.
+
 Data Manipulation:	pandas, numpy.
+
 Machine Learning:	scikit-learn (specifically HistGradientBoostingClassifier, RandomizedSearchCV).
+
 Visualization:	matplotlib, seaborn.
