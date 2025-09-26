@@ -9,10 +9,14 @@ The target class is binary, and the dataset is exceptionally large, requiring a 
 ## Data Source
 The dataset is sourced from the Kaggle Playground Series - S5E8 competition. It comprises over 750,000 unique customer records and 18 
 
-Feature Group|	Key Features|	Description
+Feature Group|	Key Features|	Description.
+
 Demographics |	age, job, education	| Personal and professional background data.
+
 Financial Status |	balance, housing, loan |	Indicators of average balance and credit obligations.
+
 Campaign History |	duration, campaign, pdays, poutcome	| Records from the current and previous marketing contacts.
+
 Target Variable|	y	|Binary target (1=Subscribed, 0=Did Not Subscribe).
 
 ## Initial Inspection & Challenge:
