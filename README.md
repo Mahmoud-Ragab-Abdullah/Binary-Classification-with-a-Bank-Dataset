@@ -52,7 +52,8 @@ max_depth.
 
 max_iter (number of boosting stages).
 
-Results & Conclusion
+## Results & Conclusion.
+
 The hyperparameter tuning process, detailed in the notebook output, confirms that the model was pushed to its optimal configuration, resulting in a robust, high-performing classifier.
 
 The highly optimized HistGradientBoostingClassifier is expected to deliver a high ROC-AUC score, which is the preferred metric for this imbalanced problem.
@@ -61,9 +62,10 @@ Training Score: The model achieved a high performance on the training data, indi
 
 Cross-Validation Score: The CV score is expected to be close to the training score, demonstrating low variance and excellent generalization to unseen data.
 
-Conclusion: The combination of effective feature engineering (specifically the pdays signal) and the use of a highly optimized, scalable boosting algorithm successfully solved the binary classification problem. The final model is a valuable tool for the bank, capable of accurately predicting term deposit subscription likelihood and significantly improving marketing ROI.
+### Conclusion:
+The combination of effective feature engineering (specifically the pdays signal) and the use of a highly optimized, scalable boosting algorithm successfully solved the binary classification problem. The final model is a valuable tool for the bank, capable of accurately predicting term deposit subscription likelihood and significantly improving marketing ROI.
 
-Programming Language:	Python
-Data Manipulation:	pandas, numpy
-Machine Learning:	scikit-learn (specifically HistGradientBoostingClassifier, RandomizedSearchCV)
-Visualization:	matplotlib, seaborn
+Programming Language:	Python.
+Data Manipulation:	pandas, numpy.
+Machine Learning:	scikit-learn (specifically HistGradientBoostingClassifier, RandomizedSearchCV).
+Visualization:	matplotlib, seaborn.
